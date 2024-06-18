@@ -1,0 +1,58 @@
+mport java.util.Scanner;
+import java.util.Random;
+
+
+public class guessthenumber {
+    public static void main(String[] args) {
+
+        System.out.print(" ****************** GUESS THE NUMBER *******************\n");
+        System.out.print("                       INSTRUCTIONS                     \n");
+        System.out.print(" -> IN THIS GAME YOU WILL BE GIVEN 5 CHANCES.\n -> YOU NEED TO GUESS THE NUMBER AS COMPUTER WILL GENERATE A RANDOM NUMBER.\n -> IF YOUR GUESSED NUMBER WILL MATCHES THE COMPUTER PRESSED NUMBER THEN YOU WILL WIN THE GAME..\n ");
+        System.out.print("***********************START****************************\n\n");
+        Scanner sc = new Scanner(System.in);
+        int c = 0;
+        Random rn = new Random();
+        int a = rn.nextInt(100);
+               System.out.print("Press S to Start the Game ->");
+                String d = sc.next();
+                switch (d) {
+                    case "s":
+
+                   for(int i =1;i<=5;i++){
+
+                        System.out.print(i + " chance -> ");
+                        int n = sc.nextInt();
+                        if (i == 5) {
+                            System.out.println("GAME OVER");
+                            break;
+
+                        }
+                        else if (n == a) {
+                            System.out.print(" CONGRATULATIONS!! YOU WIN\n");
+                            break;
+
+                        }
+                        else if (n < a) {
+                            System.out.print("computer typed number is greater than " + n + "\n");
+
+                        } else if (n > a) {
+                            System.out.print("Computer typed number is Smaller than " + n + "\n");
+
+                        }
+                        else {
+
+                            System.out.print("INCORRECT\n");
+
+                        }
+                }
+                        System.out.print("Computer pressed number is " + a + "\n");
+                        System.out.print(" ********************* PLAY AGAIN *********************8\n");
+            }
+
+
+        }
+
+    }
+
+
+

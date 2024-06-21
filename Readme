@@ -1,6 +1,19 @@
-Hello Everyone , This is the number guessing game . 
-This game is made using Java Language.
-In this game computer will  generate Random number user need to guess that number.
-You will be given only 5 chances to guess that number.
-If your typed number will Matches with computer  typed number you will win.
+Hello Everyone , This Repository is for my codsoft internship and it contains following tasks
+
+TASK 1- NUMBER GUESSING GAME
+
+This is the Number guessing game.
+In this game Computer will  Generate  a random number and User need to guess that number.
+User will be given only 5 chances to guess the number.
+It takes user input and tells Your number is Greater or smaller than computer typed number.
+i have mentioned the code in above file named Task 1.
+
+
+
+TASK 2 - STUDENT GRADE CALCULATOR 
+
+This is the Student Grade Calculator.
+It takes user input as Marks and Calculate 
+total marks , Percentage , and grade.
+Grade will be calculated according to the Percentage.
 

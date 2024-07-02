@@ -19,3 +19,7 @@ Grade will be calculated according to the Percentage.
 
 TASK 3 - ATM MACHINE 
 
+This is Automated Teller Machine (ATM).
+->  It contains the user interface for the ATM,  Including options such as Withdrawing , Depositing , Check Balance.
+-> it performs the operations of Withdrawing , Depositing , Check Balance  using Methods. Each Task having each Methods.
+-> I have created a class which  stores the Account Balance.
